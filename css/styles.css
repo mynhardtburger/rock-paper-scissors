@@ -38,6 +38,7 @@ body {
   display: flex;
   gap: 50px;
   height: 100px;
+  align-items: center;
 }
 .title-word {
   width: var(--center-elm-width);
@@ -80,6 +81,11 @@ body {
   flex-direction: row;
   gap: 50px;
   margin: 10px;
+}
+
+.iconSelection-container img {
+  width: 30px;
+  height: 30px;
 }
 
 .iconSelection {
