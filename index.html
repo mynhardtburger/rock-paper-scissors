@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="scoreboard human">
+      <div class="scores">
+        <div class="p1">
+          <div class="p1-label">Human</div>
+          <div id="p1-score" class="score">0</div>
+          <div class="p1-label"></div>
+        </div>
+      </div>
+    </div>
+    <div class="player">
+      <div class="title">
+        <span class="title-word">Rock</span>
+        <span class="title-word">Paper</span>
+        <span class="title-word">Scissors</span>
+      </div>
+      <div class="iconSelection-container human">
+        <div id="rockHuman" class="iconSelection invisible">
+          <img src="humanIcon.png" alt="human selection" />
+        </div>
+        <div id="paperHuman" class="iconSelection invisible">
+          <img src="humanIcon.png" alt="human selection" />
+        </div>
+        <div id="scissorsHuman" class="iconSelection invisible">
+          <img src="humanIcon.png" alt="human selection" />
+        </div>
+      </div>
+      <div class="icon-container">
+        <div id="rock" class="icon">
+          <img src="rock.png" alt="rock" />
+        </div>
+        <div id="paper" class="icon">
+          <img src="paper.png" alt="paper" />
+        </div>
+        <div id="scissors" class="icon">
+          <img src="scissors.png" alt="scissors" />
+        </div>
+      </div>
+      <div class="iconSelection-container computer">
+        <div id="rockComputer" class="iconSelection invisible">
+          <img src="computerIcon.png" alt="computer selection" />
+        </div>
+        <div id="paperComputer" class="iconSelection invisible">
+          <img src="computerIcon.png" alt="computer selection" />
+        </div>
+        <div id="scissorsComputer" class="iconSelection invisible">
+          <img src="computerIcon.png" alt="computer selection" />
+        </div>
+      </div>
+      <div class="title"></div>
+    </div>
+    <div class="scoreboard computer">
+      <div class="p2">
+        <div class="p2-label">Computer</div>
+        <div id="p2-score" class="score">0</div>
+        <div class="p2-label"></div>
+      </div>
+    </div>
+  </body>
+  <script src="rock-paper-scissors.js"></script>
+</html>
